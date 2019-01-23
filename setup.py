@@ -4,7 +4,7 @@ with open("README.rst", "r") as f:
     long_desc = f.read()
 
 setuptools.setup(
-    name='main',
+    name='prj',
     version='0.0.1',
     description='Run a project, even when zipped.',
     long_description=long_desc,
