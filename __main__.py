@@ -1,3 +1,5 @@
-# -*- coding: utf-8 -*-
-from src.main.main import print_name_and_file
-print_name_and_file()
+# Relative import in top level __main__.py
+from src.pkg.__main__ import print_name_and_file
+
+if __name__ == "__main__":
+    print_name_and_file()
