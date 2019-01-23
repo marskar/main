@@ -12,8 +12,8 @@ setuptools.setup(
     author='Martin Skarzynski',
     url='https://www.github.com/marskar/main/',
     license='MIT',
-    packages=setuptools.find_packages(where='src'),
     package_dir={"": "src"},
+    packages=setuptools.find_packages(where='src'),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
